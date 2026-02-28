@@ -1,0 +1,95 @@
+                                                            
+                                                               
+                        L.                                      
+  j.                    EW:        ,ft               j.         
+  EW,                   E##;       t#E            .. EW,        
+  E##j       t      .DD.E###t      t#E           ;W, E##j       
+  E###D.     EK:   ,WK. E#fE#f     t#E          j##, E###D.     
+  E#jG#W;    E#t  i#D   E#t D#G    t#E         G###, E#jG#W;    
+  E#t t##f   E#t j#f    E#t  f#E.  t#E       :E####, E#t t##f   
+  E#t  :K#E: E#tL#i     E#t   t#K: t#E      ;W#DG##, E#t  :K#E: 
+  E#KDDDD###iE#WW,      E#t    ;#W,t#E     j###DW##, E#KDDDD###i
+  E#f,t#Wi,,,E#K:       E#t     :K#D#E    G##i,,G##, E#f,t#Wi,,,
+  E#t  ;#W:  ED.        E#t      .E##E  :K#K:   L##, E#t  ;#W:  
+  DWi   ,KK: t          ..         G#E ;##D.    L##, DWi   ,KK: 
+                                    fE ,,,      .,,             
+                                     ,                          
+
+
+Hola! Bienvenido a RVNAR, una distribución creada para la investigación OSINT.
+
+Hay 3 navegadores preparados con una amplia selección de marcadores, organizados
+y clasificados para su mejor uso y localización.
+
+También disponemos de extensiones tanto en Chrome como Firefox que podemos
+activar según nuestro criterio, aunque todas son recomendadas y tienen 
+su razón de estar.
+
+También hay instaladas las siguientes herramientas básicas, podemos acceder
+a ellas desde el botón de Show Apps con el logo de Ubuntu o la tecla inicio.
+
+Qalculate, PyCharm, SublimeText, Audacity, MPV, P7Zip, Ark, Eye of GNOME,
+GIMP, LibreOffice, Thunderbird, GNOME Calendar.
+
+Como última recomendación, por favor instale una VPN de su agrado.
+
+El sistema dispone de cheatsheets en Español para (casi) cada una de las 20 
+herramientas instaladas.
+
+# Hay 2 que no necesitan cheatsheet debido a su simplicidad y Maltego que 
+es todo entorno gráfico y deberás instalar los módulos que necesites.
+
+Cada icono de herramienta o aplicaciṕn tiene su inicial en rúnico y nos abrirá
+tanto la ruta de la herramienta o herramienta en sí como su cheatsheet.
+
+Por favor para acceder a ellas búsquelas tanto en el buscador de Show Apps como 
+en el mismo menú en la carpeta de arriba a la izquierda llamado OSINT.
+
+La distribución incluye las siguientes herramientas OSINT:
+
+FRAMEWORKS / GENERAL
+-Maltego: Análisis y visualización de relaciones y enlaces entre personas, grupos, webs y dominios.
+
+-SpiderFoot: Herramienta automatizada de recolección de inteligencia OSINT.
+
+-Recon-NG: Framework de reconocimiento OSINT, usa distintos módulos. Similar a metasploit.
+
+-Maryam: Framework de recolección OSINT, usa distintos módulos. Similar a metasploit.
+
+CORREOS / DOMINIOS
+-TheHarvester: Herramienta de recolección de correos, subdominios, hosts y nombres de usuario.
+
+-InfoGa: Herramienta para encontrar correor electrónicos usando distintos motores de búsqueda.
+
+-Sublist3r: Herramienta para enumerar subdominios de sitios web a través de distintos motores de búsqueda.
+
+-H8Mail: Herramienta para encontrar correos comprometidos en bases de datos públicas.
+
+-OWASP Amass: Herramienta de enumeración de activos en internet usando múltiples fuentes de recolección de datos.
+
+-ProtOsint: Herramienta que analiza correos de protonMail.
+
+REDES
+-Wireshark: Analizador de tráfico web que captura y muestra los datos en tiempo real. Entorno gráfico.
+
+-Tshark: Similar a Wireshark pero sin interaz gráfica, más potente.
+
+METADATOS / ARCHIVOS
+-Exiftool: Herramienta para leer, escribir y editar metadatos de archivos de imágenes y video.
+
+-Metagoofil: Herramienta de recolección de metadatos públicos en Internet.
+
+IPS / OCULTACIÓN DE DOMINIOS
+-CloudFail: Herramienta para descubrir la IP real de servidores detras de la protección de CloudFlare.
+
+-Crimeflare / Cloudpeler:  Alternativa a CloudFail, aconsejable combinar ambas.
+
+PERSONAS / REDES SOCIALES
+-Userrecon: Herramienta para encontrar nombres de usuario a través de 75 redes sociales.
+
+-Sherlock: Similar a Userrecon, pero mira en las NSFW aumentando su número a 175 webs. 
+
+-Toutatis: Herramienta de recolección de información sobre perfiles en redes sociales, especialmente Instagram.
+
+INFORMACIÓN / INFRAESTRUCTURA
+-Aquatone: Herramienta para visualización y captura de pantallas de subdominios de un objetivo. Ayuda a mapear infraestructuras de un sitio web y genera capturas de pantalla.
