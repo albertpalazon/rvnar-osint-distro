@@ -1,5 +1,21 @@
 # RVNAR – OSINT Linux Distribution
 
+                                                           
+                                                               
+                        L.                                      
+  j.                    EW:        ,ft               j.         
+  EW,                   E##;       t#E            .. EW,        
+  E##j       t      .DD.E###t      t#E           ;W, E##j       
+  E###D.     EK:   ,WK. E#fE#f     t#E          j##, E###D.     
+  E#jG#W;    E#t  i#D   E#t D#G    t#E         G###, E#jG#W;    
+  E#t t##f   E#t j#f    E#t  f#E.  t#E       :E####, E#t t##f   
+  E#t  :K#E: E#tL#i     E#t   t#K: t#E      ;W#DG##, E#t  :K#E: 
+  E#KDDDD###iE#WW,      E#t    ;#W,t#E     j###DW##, E#KDDDD###i
+  E#f,t#Wi,,,E#K:       E#t     :K#D#E    G##i,,G##, E#f,t#Wi,,,
+  E#t  ;#W:  ED.        E#t      .E##E  :K#K:   L##, E#t  ;#W:  
+  DWi   ,KK: t          ..         G#E ;##D.    L##, DWi   ,KK: 
+                                    fE ,,,      .,,             
+                                     ,                          
 Custom Ubuntu-based OSINT Linux environment designed to streamline investigative workflows and reduce tool fragmentation.
 
 <img width="348" height="322" alt="image" src="https://github.com/user-attachments/assets/752faae1-43e7-445c-8ca1-802a0ec6e8f8" />
