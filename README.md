@@ -2,15 +2,15 @@
 
 Custom Ubuntu-based OSINT Linux environment designed to streamline investigative workflows and reduce tool fragmentation.
 
-## 📺 Project Demo
+## Project Demo
 
-Watch the full walkthrough and explanation:
+Walkthrough and explanation:
 
-👉 https://youtu.be/ZxjbctBXwwY
+https://youtu.be/ZxjbctBXwwY
 
 ---
 
-## 🎯 Overview
+## Overview
 
 RVNAR is a customized Ubuntu 22.04 LTS environment built to support structured and efficient OSINT investigations.
 
@@ -26,7 +26,7 @@ This distribution was developed as a Master’s Final Project in Cybersecurity, 
 
 ---
 
-## 🧩 Problem Statement
+## Problem Statement
 
 OSINT practitioners often face:
 
@@ -41,7 +41,7 @@ RVNAR was designed to address these challenges through integration, filtering, a
 
 ---
 
-## 🏗 Architecture & Design Decisions
+## Architecture & Design Decisions
 
 **Base System**
 - Ubuntu 22.04 LTS
@@ -71,7 +71,7 @@ RVNAR was designed to address these challenges through integration, filtering, a
 
 ---
 
-## 🔎 Integrated Tooling
+## Integrated Tooling
 
 ### OSINT Frameworks
 - Maltego  
@@ -100,7 +100,7 @@ RVNAR was designed to address these challenges through integration, filtering, a
 
 ---
 
-## 🌐 Browser Configuration
+## Browser Configuration
 
 RVNAR includes three pre-configured browsers:
 
@@ -129,7 +129,7 @@ Bookmark categories include:
 
 ---
 
-## ⚙ Workflow Optimization
+## Workflow Optimization
 
 Key usability improvements:
 
@@ -143,7 +143,7 @@ The goal was not only to install tools, but to standardize investigative methodo
 
 ---
 
-## 🧪 Technical Challenges Solved
+## Technical Challenges Solved
 
 During development, several real-world challenges were addressed:
 
@@ -159,7 +159,7 @@ Each tool was tested, validated and integrated with compatibility in mind.
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 Planned enhancements include:
 
@@ -171,7 +171,7 @@ Planned enhancements include:
 
 ---
 
-## 🎓 Project Context
+## Project Context
 
 Master’s Degree in Cybersecurity  
 Focus Area: OSINT & Investigative Workflow Optimization  
@@ -180,7 +180,7 @@ RVNAR represents a practical implementation project focused on system integratio
 
 ---
 
-## ⚠ Disclaimer
+## Disclaimer
 
 This distribution was created for educational and professional investigative purposes only.  
 Users are responsible for complying with applicable laws and ethical standards when conducting OSINT investigations.
