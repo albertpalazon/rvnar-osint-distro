@@ -2,6 +2,9 @@
 
 Custom Ubuntu-based OSINT Linux environment designed to streamline investigative workflows and reduce tool fragmentation.
 
+<img width="348" height="322" alt="image" src="https://github.com/user-attachments/assets/752faae1-43e7-445c-8ca1-802a0ec6e8f8" />
+
+
 ## Project Demo
 
 Walkthrough and explanation:
@@ -140,6 +143,8 @@ Key usability improvements:
 - Visual customization for professional and distraction-free workflow
 
 The goal was not only to install tools, but to standardize investigative methodology.
+
+<img width="383" height="396" alt="image" src="https://github.com/user-attachments/assets/09905909-68ab-40fc-b3bc-b571441c10cd" />
 
 ---
 
