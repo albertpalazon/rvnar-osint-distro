@@ -1,0 +1,65 @@
+
+ █████╗  ██████╗ ██╗   ██╗ █████╗ ████████╗ ██████╗ ███╗   ██╗███████╗
+██╔══██╗██╔═══██╗██║   ██║██╔══██╗╚══██╔══╝██╔═══██╗████╗  ██║██╔════╝
+███████║██║   ██║██║   ██║███████║   ██║   ██║   ██║██╔██╗ ██║█████╗  
+██╔══██║██║▄▄ ██║██║   ██║██╔══██║   ██║   ██║   ██║██║╚██╗██║██╔══╝  
+██║  ██║╚██████╔╝╚██████╔╝██║  ██║   ██║   ╚██████╔╝██║ ╚████║███████╗
+╚═╝  ╚═╝ ╚══▀▀═╝  ╚═════╝ ╚═╝  ╚═╝   ╚═╝    ╚═════╝ ╚═╝  ╚═══╝╚══════╝
+                                                                      
+PARA INICIAR EL PROGRAMA: aquatone <seguido de las opciones>
+
+aquatone-discover -d example.com
+Descubre subdominios de "example.com" y guarda los resultados en la carpeta por defecto.
+
+aquatone-discover -d example.com --output results
+Guarda los resultados del descubrimiento de subdominios de "example.com" en la carpeta "results".
+
+aquatone-discover -d example.com --threads 10
+Realiza el descubrimiento de subdominios de "example.com" utilizando 10 hilos para mejorar la velocidad.
+
+aquatone-discover -d example.com --timeout 30
+Establece un tiempo de espera de 30 segundos para cada solicitud durante el descubrimiento de subdominios.
+
+aquatone-discover -d example.com --proxy http://127.0.0.1:8080
+Realiza el descubrimiento de subdominios de "example.com" a través de un proxy HTTP en "http://127.0.0.1:8080".
+
+
+UNA VEZ TENEMOS EL DISCOVER
+
+
+aquatone-scan -d example.com
+Realiza un escaneo de dominio en "example.com" para descubrir subdominios y obtener capturas de pantalla.
+
+aquatone-scan -d example.com --port 80,443
+Realiza un escaneo de dominio en "example.com" en los puertos especificados (80 y 443) para obtener capturas de pantalla.
+
+aquatone-scan -d example.com --threads 10
+Realiza un escaneo de dominio en "example.com" utilizando 10 hilos para mejorar la velocidad del escaneo.
+
+aquatone-scan -d example.com --timeout 30
+Establece un tiempo de espera de 30 segundos para cada solicitud durante el escaneo del dominio "example.com".
+
+aquatone-scan -d example.com --output results
+Guarda los resultados del escaneo de "example.com" en la carpeta "results".
+
+aquatone-scan -d example.com --no-screenshot
+Realiza el escaneo de "example.com" sin capturar pantallas de las páginas web.
+
+aquatone-scan -d example.com --http-proxy http://127.0.0.1:8080
+Realiza el escaneo del dominio "example.com" a través de un proxy HTTP en "http://127.0.0.1:8080".
+
+aquatone-scan -d example.com --https-proxy http://127.0.0.1:8080
+Realiza el escaneo del dominio "example.com" a través de un proxy HTTPS en "http://127.0.0.1:8080".
+
+aquatone-scan -d example.com --retries 3
+Intenta realizar el escaneo del dominio "example.com" hasta 3 veces en caso de fallo.
+
+aquatone -import results
+Importa los resultados desde la carpeta "results" para su visualización y análisis.
+
+aquatone -export results --format json
+Exporta los resultados desde la carpeta "results" en formato JSON.
+
+aquatone-export results --format csv
+Exporta los resultados desde la carpeta "results" en formato CSV.
+

@@ -1,0 +1,62 @@
+
+██╗    ██╗██╗██████╗ ███████╗███████╗██╗  ██╗ █████╗ ██████╗ ██╗  ██╗
+██║    ██║██║██╔══██╗██╔════╝██╔════╝██║  ██║██╔══██╗██╔══██╗██║ ██╔╝
+██║ █╗ ██║██║██████╔╝█████╗  ███████╗███████║███████║██████╔╝█████╔╝ 
+██║███╗██║██║██╔══██╗██╔══╝  ╚════██║██╔══██║██╔══██║██╔══██╗██╔═██╗ 
+╚███╔███╔╝██║██║  ██║███████╗███████║██║  ██║██║  ██║██║  ██║██║  ██╗
+ ╚══╝╚══╝ ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝
+                                                                     
+PARA INICIAR EL PROGRAMA: wireshark
+Desde cualquier ruta
+
+http
+Filtra todos los paquetes relacionados con el protocolo HTTP.
+
+tcp contains "X"
+Filtra todos los paquetes TCP que contienen el texto "X" en su carga útil.
+
+ip.addr == 192.168.1.1
+Filtra todos los paquetes donde la dirección IP de origen o destino es "192.168.1.1".
+
+tcp.port == 80
+Filtra todos los paquetes TCP en el puerto 80, que generalmente está asociado con HTTP.
+
+udp.port == 53
+Filtra todos los paquetes UDP en el puerto 53, que generalmente está asociado con DNS.
+
+frame.len > 1000
+Filtra todos los paquetes cuyo tamaño es mayor a 1000 bytes.
+
+http.request.uri contains "login"
+Filtra todas las solicitudes HTTP donde la URI contiene la cadena "login".
+
+tcp.analysis.retransmission
+Filtra los paquetes TCP que están etiquetados como retransmisiones.
+
+ip.src == 10.0.0.1 && ip.dst == 10.0.0.2
+Filtra todos los paquetes con dirección IP de origen "10.0.0.1" y dirección IP de destino "10.0.0.2".
+
+eth.addr == 00:11:22:33:44:55
+Filtra todos los paquetes con la dirección MAC de origen o destino "00:11:22:33:44:55".
+
+http.response.code == 404
+Filtra todas las respuestas HTTP con el código de estado 404 (No Encontrado).
+
+tcp.flags.syn == 1 && tcp.flags.ack == 0
+Filtra todos los paquetes TCP que son intentos de conexión (SYN sin ACK).
+
+ssl.record.version == 0x0303
+Filtra todos los paquetes SSL/TLS con la versión 0x0303 (TLS 1.2).
+
+ip.addr == 192.168.1.1 && tcp.port == 443
+Filtra todos los paquetes provenientes de "192.168.1.1" en el puerto TCP 443, que generalmente está asociado con HTTPS.
+
+http.method == "POST"
+Filtra todas las solicitudes HTTP que utilizan el método POST.
+
+dns.qry.name == "example.com"
+Filtra todas las consultas DNS para el nombre de dominio "example.com".
+
+tcp.stream eq 1
+Filtra todos los paquetes que pertenecen a un flujo TCP específico (en este caso, flujo 1).
+

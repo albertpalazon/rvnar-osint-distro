@@ -1,0 +1,43 @@
+
+███╗   ███╗███████╗████████╗ █████╗  ██████╗  ██████╗  ██████╗ ███████╗██╗██╗     
+████╗ ████║██╔════╝╚══██╔══╝██╔══██╗██╔════╝ ██╔═══██╗██╔═══██╗██╔════╝██║██║     
+██╔████╔██║█████╗     ██║   ███████║██║  ███╗██║   ██║██║   ██║█████╗  ██║██║     
+██║╚██╔╝██║██╔══╝     ██║   ██╔══██║██║   ██║██║   ██║██║   ██║██╔══╝  ██║██║     
+██║ ╚═╝ ██║███████╗   ██║   ██║  ██║╚██████╔╝╚██████╔╝╚██████╔╝██║     ██║███████╗
+╚═╝     ╚═╝╚══════╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝  ╚═════╝  ╚═════╝ ╚═╝     ╚═╝╚══════╝
+                                                                                  
+PARA INICIAR EL PROGRAMA: python2 metagoofil.py
+
+metagoofil -v
+Muestra la versión actual de Metagoofil instalada en el sistema.
+
+metagoofil -d example.com -t pdf,doc,docx -o results
+Extrae metadatos de archivos PDF, DOC y DOCX en el dominio "example.com" y guarda los resultados en la carpeta "results".
+
+metagoofil -d example.com -t pdf -l 100 -o pdf_results
+Extrae metadatos de hasta 100 archivos PDF en el dominio "example.com" y guarda los resultados en la carpeta "pdf_results".
+
+metagoofil -d example.com -t xls,xlsx -b
+Extrae metadatos de archivos XLS y XLSX en el dominio "example.com" y realiza una búsqueda de metadatos en base de datos en línea.
+
+metagoofil -d example.com -t ppt,pptx -o ppt_results -f results.txt
+Extrae metadatos de archivos PPT y PPTX en el dominio "example.com" y guarda los resultados en "results.txt".
+
+metagoofil -d example.com -t docx -l 50 -o docx_results -b
+Extrae metadatos de hasta 50 archivos DOCX en el dominio "example.com" y realiza una búsqueda en base de datos en línea.
+
+metagoofil -d example.com -t pdf,doc -o results -e "email@example.com"
+Extrae metadatos de archivos PDF y DOC en el dominio "example.com" y filtra los resultados para encontrar el correo electrónico "email@example.com".
+
+metagoofil -d example.com -t pdf,doc,docx -o results --user-agent "Mozilla/5.0"
+Extrae metadatos de archivos PDF, DOC y DOCX en el dominio "example.com" utilizando el User-Agent "Mozilla/5.0" para la solicitud HTTP.
+
+metagoofil -d example.com -t all -l 200 -o all_results
+Extrae metadatos de hasta 200 archivos de todos los tipos soportados en el dominio "example.com" y guarda los resultados en la carpeta "all_results".
+
+metagoofil -d example.com -t pdf,docx -o results --proxy http://127.0.0.1:8080
+Extrae metadatos de archivos PDF y DOCX en el dominio "example.com" utilizando un proxy en "http://127.0.0.1:8080".
+
+metagoofil -d example.com -t pdf,doc,docx -o results -s
+Extrae metadatos de archivos PDF, DOC y DOCX en el dominio "example.com" y realiza una búsqueda de archivos en el dominio especificado.
+

@@ -1,0 +1,55 @@
+
+██╗  ██╗ █████╗ ██████╗ ██╗   ██╗███████╗███████╗████████╗███████╗██████╗ 
+██║  ██║██╔══██╗██╔══██╗██║   ██║██╔════╝██╔════╝╚══██╔══╝██╔════╝██╔══██╗
+███████║███████║██████╔╝██║   ██║█████╗  ███████╗   ██║   █████╗  ██████╔╝
+██╔══██║██╔══██║██╔══██╗╚██╗ ██╔╝██╔══╝  ╚════██║   ██║   ██╔══╝  ██╔══██╗
+██║  ██║██║  ██║██║  ██║ ╚████╔╝ ███████╗███████║   ██║   ███████╗██║  ██║
+╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝  ╚═══╝  ╚══════╝╚══════╝   ╚═╝   ╚══════╝╚═╝  ╚═╝
+                                                           
+PARA INICIAR EL PROGRAMA: python3.12 theHarvester.py
+
+theharvester -d example.com -b google
+Realiza una búsqueda de información sobre el dominio "example.com" utilizando Google como motor de búsqueda.
+
+theharvester -d example.com -b all
+Realiza una búsqueda utilizando todos los motores de búsqueda soportados por theHarvester.
+
+theharvester -d example.com -b bing -f resultados.html
+Realiza una búsqueda en Bing y guarda los resultados en un archivo HTML llamado "resultados.html".
+
+theharvester -d example.com -b google -l 500
+Limita los resultados de la búsqueda en Google a 500 entradas.
+
+theharvester -d example.com -b linkedin -l 200 -f linkedin_results.txt
+Recopila hasta 200 resultados de LinkedIn y los guarda en un archivo de texto llamado "linkedin_results.txt".
+
+theharvester -d example.com -b twitter
+Recopila información de Twitter relacionada con el dominio "example.com".
+
+theharvester -d example.com -b crtsh
+Recopila información de certificados SSL/TLS asociados al dominio "example.com".
+
+theharvester -d example.com -b virustotal
+Utiliza VirusTotal para recopilar información de subdominios relacionados con "example.com".
+
+theharvester -d example.com -b shodan -f shodan_results.txt
+Realiza una búsqueda en Shodan para identificar dispositivos conectados relacionados con "example.com" y guarda los resultados en un archivo de texto.
+
+theharvester -d example.com -b github
+Busca información relacionada en GitHub sobre el dominio "example.com".
+
+theharvester -d example.com -b dnsdumpster
+Recopila información DNS utilizando el servicio DNSDumpster.
+
+theharvester -d example.com -b hunter
+Utiliza el servicio Hunter.io para buscar correos electrónicos asociados con "example.com".
+
+theharvester -d example.com -b intelx
+Recopila datos de inteligencia usando el motor de búsqueda Intelligence X.
+
+theharvester -h
+Muestra la ayuda y todas las opciones disponibles en theHarvester.
+
+theharvester --version
+Muestra la versión actual de theHarvester instalada en el sistema.
+

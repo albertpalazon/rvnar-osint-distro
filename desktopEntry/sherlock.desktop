@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Categories=Utility;Application;
+Name=Sherlock
+Exec=gnome-terminal -- bash -c "cd /home/runar/OSINT/launchers && ./sherlock.sh"
+Icon=/home/runar/Downloads/runes/S.png

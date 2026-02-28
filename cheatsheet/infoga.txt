@@ -1,0 +1,43 @@
+
+██╗███╗   ██╗███████╗ ██████╗  ██████╗  █████╗ 
+██║████╗  ██║██╔════╝██╔═══██╗██╔════╝ ██╔══██╗
+██║██╔██╗ ██║█████╗  ██║   ██║██║  ███╗███████║
+██║██║╚██╗██║██╔══╝  ██║   ██║██║   ██║██╔══██║
+██║██║ ╚████║██║     ╚██████╔╝╚██████╔╝██║  ██║
+╚═╝╚═╝  ╚═══╝╚═╝      ╚═════╝  ╚═════╝ ╚═╝  ╚═╝
+                                               
+PARA INICIAR EL PROGRAMA: python3 infoga.py
+
+python3 infoga.py --domain example.com --source all --breach -v 2
+Realiza una búsqueda exhaustiva en todos los motores soportados para recopilar correos electrónicos del dominio "example.com" y busca si alguno ha sido parte de una filtración de datos.
+
+python3 infoga.py --domain example.com --source google -v 2
+Recopila correos electrónicos del dominio "example.com" utilizando Google como fuente.
+
+python3 infoga.py --domain example.com --source bing -v 2 --output resultados.txt
+Recopila correos electrónicos utilizando Bing y guarda los resultados en un archivo de texto llamado "resultados.txt".
+
+python3 infoga.py --domain example.com --source all --report resultados.html
+Genera un informe en formato HTML con todos los correos electrónicos encontrados para el dominio "example.com".
+
+python3 infoga.py --domain example.com --source pgp -v 2
+Busca correos electrónicos en las bases de datos de claves públicas PGP relacionadas con el dominio "example.com".
+
+python3 infoga.py --email user@example.com --breach -v 2
+Verifica si la dirección de correo "user@example.com" ha sido parte de una filtración de datos.
+
+python3 infoga.py --domain example.com --source yahoo --report yahoo_report.txt
+Recopila correos electrónicos desde Yahoo y genera un informe en un archivo de texto llamado "yahoo_report.txt".
+
+python3 infoga.py --help
+Muestra la ayuda y todas las opciones disponibles para utilizar en Infoga.
+
+python3 infoga.py --domain example.com --source ask -v 2
+Recopila correos electrónicos utilizando el motor de búsqueda Ask para el dominio "example.com".
+
+python3 infoga.py --version
+Muestra la versión de Infoga instalada en el sistema.
+
+python3 infoga.py --email user@example.com --source all -v 2
+Busca información relacionada con el correo electrónico "user@example.com" en todas las fuentes disponibles.
+

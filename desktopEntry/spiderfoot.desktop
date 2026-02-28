@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Categories=Utility;Application;
+Name=SpiderFoot
+Exec=gnome-terminal -- bash -c "cd /home/runar/OSINT/launchers && ./spiderfoot.sh"
+Icon=/home/runar/Downloads/runes/S.png

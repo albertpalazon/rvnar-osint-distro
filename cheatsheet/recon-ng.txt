@@ -1,0 +1,57 @@
+
+██████╗ ███████╗ ██████╗ ██████╗ ███╗   ██╗      ███╗   ██╗ ██████╗ 
+██╔══██╗██╔════╝██╔════╝██╔═══██╗████╗  ██║      ████╗  ██║██╔════╝ 
+██████╔╝█████╗  ██║     ██║   ██║██╔██╗ ██║█████╗██╔██╗ ██║██║  ███╗
+██╔══██╗██╔══╝  ██║     ██║   ██║██║╚██╗██║╚════╝██║╚██╗██║██║   ██║
+██║  ██║███████╗╚██████╗╚██████╔╝██║ ╚████║      ██║ ╚████║╚██████╔╝
+╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝      ╚═╝  ╚═══╝ ╚═════╝ 
+                                                                    
+
+PARA ABRIR EL PROGRAMA !!
+En la misma ruta donde se abre la consola, habilitar el entorno virtual:
+source recon-ng-venv/bin/activate
+
+Una vez dentro del venv: 
+./recon-ng
+
+show modules
+Muestra todos los módulos disponibles en recon-ng.
+
+use recon/domains-hosts/google_site_web
+Selecciona un módulo específico para obtener hosts de un dominio utilizando Google.
+
+set SOURCE example.com
+Configura el objetivo del módulo seleccionado, en este caso, el dominio "example.com".
+
+run
+Ejecuta el módulo actualmente cargado con las configuraciones definidas.
+
+show hosts
+Muestra los hosts recopilados durante la ejecución de los módulos.
+
+show info
+Muestra la información detallada sobre el módulo actualmente cargado.
+
+show options
+Muestra las opciones configurables del módulo actual.
+
+show reports
+Muestra los reportes generados a partir de los módulos ejecutados.
+
+db insert
+Inserta manualmente datos en la base de datos de recon-ng.
+
+db delete
+Elimina datos de la base de datos.
+
+set WORKSPACE <nombre>
+Cambia o crea un nuevo espacio de trabajo para organizar tu sesión.
+
+export <formato>
+Exporta los datos recolectados a un formato específico (csv, json, etc.).
+
+marketplace search <nombre>
+Busca módulos en el marketplace de recon-ng.
+
+marketplace install <nombre>
+Instala un módulo adicional desde el marketplace.

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Categories=Utility;Application;
+Name=Toutatis
+Exec=gnome-terminal -- bash -c "cd /home/runar/OSINT/launchers && ./toutatis.sh"
+Icon=/home/runar/Downloads/runes/T.png

@@ -1,0 +1,56 @@
+    
+███████╗██████╗ ██╗██████╗ ███████╗██████╗ ███████╗ ██████╗  ██████╗ ████████╗
+██╔════╝██╔══██╗██║██╔══██╗██╔════╝██╔══██╗██╔════╝██╔═══██╗██╔═══██╗╚══██╔══╝
+███████╗██████╔╝██║██║  ██║█████╗  ██████╔╝█████╗  ██║   ██║██║   ██║   ██║   
+╚════██║██╔═══╝ ██║██║  ██║██╔══╝  ██╔══██╗██╔══╝  ██║   ██║██║   ██║   ██║   
+███████║██║     ██║██████╔╝███████╗██║  ██║██║     ╚██████╔╝╚██████╔╝   ██║   
+╚══════╝╚═╝     ╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝      ╚═════╝  ╚═════╝    ╚═╝   
+                                                                              
+PARA ABRIR EL PANEL DE AYUDA Y USAR EL PROGRAMA: spiderfoot
+**Al haber sido instalado desde Ubuntu AppCenter, se puede ejecutar en cualquier ruta.
+
+spiderfoot -d example.com -m sfp_dns_a
+Inicia un escaneo para el dominio "example.com" utilizando el módulo "sfp_dns_a" para obtener registros A de DNS.
+
+spiderfoot -d example.com -m sfp_dns_a,sfp_dns_soa -o results.json
+Realiza un escaneo para "example.com" usando los módulos "sfp_dns_a" y "sfp_dns_soa", y exporta los resultados a "results.json".
+
+spiderfoot -d example.com -m sfp_whois -r output.csv
+Ejecuta el módulo "sfp_whois" para obtener información WHOIS del dominio "example.com" y guarda los resultados en "output.csv".
+
+spiderfoot -d example.com -m sfp_googlesearch -i queries.txt
+Realiza un escaneo de búsqueda en Google usando el módulo "sfp_googlesearch" con consultas especificadas en "queries.txt".
+
+spiderfoot -d example.com -m sfp_cert_crt -s 12345
+Utiliza el módulo "sfp_cert_crt" para buscar información sobre certificados y muestra el estado del escaneo con ID 12345.
+
+spiderfoot -d example.com -m sfp_ip -t 192.168.1.1 -o ip_results.json
+Realiza un escaneo sobre la IP "192.168.1.1" y exporta los resultados a "ip_results.json".
+
+spiderfoot -d example.com -m sfp_subnet -c 24 -o subnet_results.csv
+Utiliza el módulo "sfp_subnet" para escanear subredes con una máscara de 24 bits y guarda los resultados en "subnet_results.csv".
+
+spiderfoot -d example.com -m sfp_social
+Ejecuta un escaneo de información en redes sociales utilizando el módulo "sfp_social".
+
+spiderfoot -d example.com -m sfp_shodan -t YOUR_SHODAN_API_KEY
+Realiza un escaneo utilizando el módulo "sfp_shodan" con la clave API de Shodan proporcionada.
+
+spiderfoot -d example.com -m sfp_ports -o ports_results.json
+Escanea los puertos del dominio "example.com" usando el módulo "sfp_ports" y guarda los resultados en "ports_results.json".
+
+spiderfoot -d example.com -m sfp_dns_ns -r dns_ns_results.csv
+Obtiene información sobre los servidores de nombres DNS para "example.com" usando el módulo "sfp_dns_ns" y guarda los resultados en "dns_ns_results.csv".
+
+spiderfoot -d example.com -m sfp_ssl
+Realiza un escaneo de certificados SSL/TLS del dominio "example.com" utilizando el módulo "sfp_ssl".
+
+spiderfoot -d example.com -m sfp_shodan -a
+Obtiene información adicional de Shodan sobre el dominio "example.com" usando el módulo "sfp_shodan" y muestra los resultados directamente en la consola.
+
+spiderfoot -d example.com -m sfp_ipwhois -t 8.8.8.8 -o ipwhois_results.txt
+Realiza un escaneo WHOIS sobre la IP "8.8.8.8" utilizando el módulo "sfp_ipwhois" y guarda los resultados en "ipwhois_results.txt".
+
+spiderfoot -d example.com -m sfp_virustotal -a YOUR_VIRUSTOTAL_API_KEY
+Escanea el dominio "example.com" usando el módulo "sfp_virustotal" con la clave API de VirusTotal proporcionada.
+

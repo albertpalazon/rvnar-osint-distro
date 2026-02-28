@@ -1,0 +1,52 @@
+
+ █████╗ ███╗   ███╗ █████╗ ███████╗███████╗
+██╔══██╗████╗ ████║██╔══██╗██╔════╝██╔════╝
+███████║██╔████╔██║███████║███████╗███████╗
+██╔══██║██║╚██╔╝██║██╔══██║╚════██║╚════██║
+██║  ██║██║ ╚═╝ ██║██║  ██║███████║███████║
+╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝
+                                           
+PARA INICIAR EL PROGRAMA: amass
+
+amass enum -d example.com
+Enumera subdominios del dominio "example.com" utilizando todos los métodos disponibles.
+
+amass enum -d example.com -o subdomains.txt
+Enumera subdominios y guarda los resultados en un archivo de texto llamado "subdomains.txt".
+
+amass enum -d example.com -active
+Realiza un escaneo activo, usando técnicas como scraping de web y análisis de certificados SSL.
+
+amass enum -d example.com -brute
+Realiza un ataque de fuerza bruta para descubrir subdominios adicionales.
+
+amass enum -d example.com -brute -min-for-recursive 3
+Aplica fuerza bruta recursiva en subdominios que tienen al menos tres subdominios hijos.
+
+amass enum -d example.com -p 80,443
+Enumera subdominios y escanea los puertos 80 y 443 en cada subdominio encontrado.
+
+amass intel -whois -d example.com
+Realiza un análisis de inteligencia y recopila información WHOIS sobre "example.com" y sus dominios relacionados.
+
+amass track -d example.com -o changes.txt
+Compara los resultados actuales con escaneos anteriores y guarda los cambios detectados en "changes.txt".
+
+amass db -d example.com -names
+Muestra todos los nombres de subdominios almacenados en la base de datos de Amass para "example.com".
+
+amass viz -d example.com -o graph.dot -format dot
+Genera un gráfico visual en formato DOT con las relaciones entre dominios y subdominios.
+
+amass enum -df domains.txt
+Enumera subdominios para múltiples dominios listados en "domains.txt".
+
+amass enum -d example.com -passive
+Realiza una enumeración pasiva de subdominios sin enviar peticiones directas al dominio objetivo.
+
+amass enum -d example.com -timeout 60
+Establece un tiempo máximo de espera de 60 segundos para las respuestas de servicios externos.
+
+amass enum -d example.com -config config.ini
+Ejecuta un escaneo utilizando configuraciones avanzadas definidas en un archivo INI.
+

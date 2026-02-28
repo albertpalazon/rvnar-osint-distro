@@ -1,0 +1,43 @@
+
+███████╗██╗   ██╗██████╗ ██╗     ██╗███████╗████████╗██████╗ ██████╗ 
+██╔════╝██║   ██║██╔══██╗██║     ██║██╔════╝╚══██╔══╝╚════██╗██╔══██╗
+███████╗██║   ██║██████╔╝██║     ██║███████╗   ██║    █████╔╝██████╔╝
+╚════██║██║   ██║██╔══██╗██║     ██║╚════██║   ██║    ╚═══██╗██╔══██╗
+███████║╚██████╔╝██████╔╝███████╗██║███████║   ██║   ██████╔╝██║  ██║
+╚══════╝ ╚═════╝ ╚═════╝ ╚══════╝╚═╝╚══════╝   ╚═╝   ╚═════╝ ╚═╝  ╚═╝
+                                                                     
+PARA INICIAR EL PROGRAMA: python sublist3r.py
+
+sublist3r -d example.com
+Enumera subdominios del dominio "example.com" utilizando múltiples motores de búsqueda.
+
+sublist3r -d example.com -o subdomains.txt
+Enumera subdominios y guarda los resultados en un archivo de texto llamado "subdomains.txt".
+
+sublist3r -d example.com -b
+Utiliza motores de búsqueda específicos, omitiendo fuentes OSINT adicionales como Netcraft, VirusTotal, etc.
+
+sublist3r -d example.com -p 80,443
+Enumera subdominios y escanea los puertos 80 y 443 en cada subdominio encontrado.
+
+sublist3r -d example.com -v
+Enumera subdominios con salida en modo detallado (verbose).
+
+sublist3r -d example.com -e google,yahoo,bing
+Especifica los motores de búsqueda a utilizar, en este caso, Google, Yahoo y Bing.
+
+sublist3r -d example.com -t 20
+Configura el número de hilos para acelerar el escaneo, en este caso, 20 hilos.
+
+sublist3r -d example.com -n
+Enumera subdominios sin resolver nombres DNS (sin realizar resoluciones DNS).
+
+sublist3r -h
+Muestra la ayuda y las opciones disponibles para utilizar con Sublist3r.
+
+sublist3r -d example.com -o subdomains.html
+Enumera subdominios y exporta los resultados en un archivo HTML.
+
+sublist3r -d example.com -q
+Ejecuta el escaneo en modo silencioso (quiet), minimizando la salida en pantalla.
+

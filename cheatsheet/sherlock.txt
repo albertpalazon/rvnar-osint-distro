@@ -1,0 +1,52 @@
+
+███████╗██╗  ██╗███████╗██████╗ ██╗      ██████╗  ██████╗██╗  ██╗
+██╔════╝██║  ██║██╔════╝██╔══██╗██║     ██╔═══██╗██╔════╝██║ ██╔╝
+███████╗███████║█████╗  ██████╔╝██║     ██║   ██║██║     █████╔╝ 
+╚════██║██╔══██║██╔══╝  ██╔══██╗██║     ██║   ██║██║     ██╔═██╗ 
+███████║██║  ██║███████╗██║  ██║███████╗╚██████╔╝╚██████╗██║  ██╗
+╚══════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝ ╚═════╝  ╚═════╝╚═╝  ╚═╝
+                                                                 
+PARA INICIAR EL PROGRAMA: sherlock
+
+sherlock -v
+Muestra la versión actual de Sherlock instalada en el sistema.
+
+sherlock username
+Busca información sobre el nombre de usuario "username" en múltiples plataformas y redes sociales.
+
+sherlock username --verbose
+Realiza una búsqueda detallada del nombre de usuario "username" y muestra información adicional.
+
+sherlock username --output results.txt
+Guarda los resultados de la búsqueda del nombre de usuario "username" en un archivo de texto llamado "results.txt".
+
+sherlock username --json
+Guarda los resultados en formato JSON en un archivo llamado "results.json".
+
+sherlock username --delay 1
+Establece un retraso de 1 segundo entre cada solicitud para evitar bloqueos o detección.
+
+sherlock username --proxy http://127.0.0.1:8080
+Realiza la búsqueda del nombre de usuario "username" a través de un proxy en "http://127.0.0.1:8080".
+
+sherlock username --timeout 30
+Establece un tiempo de espera de 30 segundos para cada solicitud.
+
+sherlock username --exclude-platforms twitter,facebook
+Excluye las plataformas especificadas (Twitter, Facebook) de la búsqueda del nombre de usuario "username".
+
+sherlock username --include-platforms instagram,github
+Incluye solo las plataformas especificadas (Instagram, GitHub) en la búsqueda del nombre de usuario "username".
+
+sherlock username --silent
+Realiza la búsqueda sin mostrar la salida en la terminal, solo guarda los resultados en el archivo especificado.
+
+sherlock username --no-verify
+Desactiva la verificación de certificados SSL/TLS para evitar problemas con conexiones seguras.
+
+sherlock username --retry 3
+Intenta realizar la búsqueda hasta 3 veces en caso de fallo.
+
+sherlock username --help
+Muestra la ayuda con todas las opciones disponibles en Sherlock.
+

@@ -1,0 +1,43 @@
+
+ ██████╗██╗      ██████╗ ██╗   ██╗██████╗ ███████╗ █████╗ ██╗██╗     
+██╔════╝██║     ██╔═══██╗██║   ██║██╔══██╗██╔════╝██╔══██╗██║██║     
+██║     ██║     ██║   ██║██║   ██║██║  ██║█████╗  ███████║██║██║     
+██║     ██║     ██║   ██║██║   ██║██║  ██║██╔══╝  ██╔══██║██║██║     
+╚██████╗███████╗╚██████╔╝╚██████╔╝██████╔╝██║     ██║  ██║██║███████╗
+ ╚═════╝╚══════╝ ╚═════╝  ╚═════╝ ╚═════╝ ╚═╝     ╚═╝  ╚═╝╚═╝╚══════╝
+                                                                     
+PARA INICIAR EL PROGRAMA: python3 cloudfail.py
+
+cloudfail -v
+Muestra la versión actual de CloudFail instalada en el sistema.
+
+cloudfail -d example.com
+Detecta si el dominio "example.com" está utilizando servicios de protección en la nube como Cloudflare.
+
+cloudfail -d example.com --verbose
+Realiza un análisis más detallado del dominio "example.com" para detectar el uso de servicios de protección en la nube.
+
+cloudfail -d example.com --resolve
+Realiza una resolución de DNS para determinar si el dominio "example.com" está detrás de un servicio de protección en la nube.
+
+cloudfail -d example.com --lookup
+Realiza una búsqueda de registros DNS para verificar el uso de servicios de protección en la nube.
+
+cloudfail -d example.com --no-dns
+Realiza un análisis sin realizar consultas DNS adicionales para detectar la protección en la nube del dominio "example.com".
+
+cloudfail -d example.com --whois
+Obtiene información WHOIS para verificar si el dominio "example.com" está registrado a través de un servicio de protección en la nube.
+
+cloudfail -d example.com --reverse
+Realiza una búsqueda inversa para detectar si el dominio "example.com" está utilizando servicios de protección en la nube.
+
+cloudfail -d example.com --proxy http://127.0.0.1:8080
+Realiza el análisis del dominio "example.com" a través de un proxy en "http://127.0.0.1:8080".
+
+cloudfail -d example.com --timeout 30
+Establece un tiempo de espera de 30 segundos para las solicitudes al analizar el dominio "example.com".
+
+cloudfail -d example.com --all
+Realiza una comprobación exhaustiva de todas las posibles configuraciones y servicios de protección en la nube para el dominio "example.com".
+

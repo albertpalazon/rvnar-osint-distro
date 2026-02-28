@@ -1,0 +1,52 @@
+
+████████╗ ██████╗ ██╗   ██╗████████╗ █████╗ ████████╗██╗███████╗
+╚══██╔══╝██╔═══██╗██║   ██║╚══██╔══╝██╔══██╗╚══██╔══╝██║██╔════╝
+   ██║   ██║   ██║██║   ██║   ██║   ███████║   ██║   ██║███████╗
+   ██║   ██║   ██║██║   ██║   ██║   ██╔══██║   ██║   ██║╚════██║
+   ██║   ╚██████╔╝╚██████╔╝   ██║   ██║  ██║   ██║   ██║███████║
+   ╚═╝    ╚═════╝  ╚═════╝    ╚═╝   ╚═╝  ╚═╝   ╚═╝   ╚═╝╚══════╝
+                                                                
+PARA INICIAR EL PROGRAMA: toutatis
+
+toutatis -v
+Muestra la versión actual de Toutatis instalada en el sistema.
+
+toutatis -u username
+Busca información sobre el nombre de usuario "username" en múltiples redes sociales y plataformas.
+
+toutatis -u username --output results.txt
+Guarda los resultados de la búsqueda del nombre de usuario "username" en un archivo de texto llamado "results.txt".
+
+toutatis -u username --json
+Guarda los resultados en formato JSON en un archivo llamado "results.json".
+
+toutatis -u username --platforms twitter,instagram
+Limita la búsqueda del nombre de usuario "username" a las plataformas especificadas (Twitter, Instagram).
+
+toutatis -u username --exclude-platforms facebook,linkedin
+Excluye las plataformas especificadas (Facebook, LinkedIn) de la búsqueda del nombre de usuario "username".
+
+toutatis -u username --proxy http://127.0.0.1:8080
+Realiza la búsqueda del nombre de usuario "username" a través de un proxy en "http://127.0.0.1:8080".
+
+toutatis -u username --timeout 30
+Establece un tiempo de espera de 30 segundos para cada solicitud.
+
+toutatis -u username --verbose
+Realiza una búsqueda detallada del nombre de usuario "username" y muestra información adicional.
+
+toutatis -u username --no-cache
+Realiza la búsqueda sin utilizar caché para obtener los resultados más actualizados.
+
+toutatis -u username --retries 3
+Intenta realizar la búsqueda hasta 3 veces en caso de fallo.
+
+toutatis -u username --email email@example.com
+Busca información relacionada con el nombre de usuario "username" y filtra los resultados para encontrar el correo electrónico "email@example.com".
+
+toutatis -u username --silent
+Realiza la búsqueda sin mostrar la salida en la terminal, solo guarda los resultados en el archivo especificado.
+
+toutatis -h
+Muestra la ayuda con todas las opciones disponibles en Toutatis.
+

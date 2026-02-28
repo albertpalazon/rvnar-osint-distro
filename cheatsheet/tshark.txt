@@ -1,0 +1,58 @@
+
+████████╗███████╗██╗  ██╗ █████╗ ██████╗ ██╗  ██╗
+╚══██╔══╝██╔════╝██║  ██║██╔══██╗██╔══██╗██║ ██╔╝
+   ██║   ███████╗███████║███████║██████╔╝█████╔╝ 
+   ██║   ╚════██║██╔══██║██╔══██║██╔══██╗██╔═██╗ 
+   ██║   ███████║██║  ██║██║  ██║██║  ██║██║  ██╗
+   ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝
+                                                 
+PARA INICIAR EL PROGRAMA: tshark
+
+tshark -i enp0s3
+Inicia una captura en la interfaz de red "enp0s3".
+
+tshark -i enp0s3 -a duration:60
+Captura tráfico en la interfaz "enp0s3" durante 60 segundos.
+
+tshark -i enp0s3 -f "tcp port 80"
+Captura tráfico en la interfaz "enp0s3" filtrando solo los paquetes TCP en el puerto 80 (HTTP).
+
+tshark -i enp0s3 -f "udp port 53"
+Captura tráfico en la interfaz "enp0s3" filtrando solo los paquetes UDP en el puerto 53 (DNS).
+
+tshark -i enp0s3 -w capture.pcap
+Captura tráfico en la interfaz "enp0s3" y guarda los resultados en un archivo "capture.pcap".
+
+tshark -r capture.pcap
+Lee y muestra el contenido del archivo "capture.pcap".
+
+tshark -r capture.pcap -Y "http"
+Muestra solo los paquetes HTTP del archivo "capture.pcap".
+
+tshark -r capture.pcap -Y "tcp contains 'X'"
+Muestra solo los paquetes TCP que contienen el texto "X" en el archivo "capture.pcap".
+
+tshark -i enp0s3 -a filesize:10000 -w capture.pcap
+Captura tráfico en la interfaz "enp0s3" y guarda los datos en "capture.pcap" hasta alcanzar un tamaño de 10 MB.
+
+tshark -i enp0s3 -b filesize:10000 -w capture
+Captura tráfico en la interfaz "enp0s3" y guarda los datos en archivos de captura rotativos de 10 MB.
+
+tshark -i enp0s3 -c 50
+Captura solo los primeros 50 paquetes en la interfaz "enp0s3".
+
+tshark -r capture.pcap -T fields -e ip.src -e ip.dst -e tcp.port
+Muestra solo las direcciones IP de origen, destino y los puertos TCP del archivo de captura "capture.pcap".
+
+tshark -i enp0s3 -f "ip src 192.168.1.1"
+Captura tráfico en la interfaz "enp0s3" filtrando solo los paquetes con IP de origen "192.168.1.1".
+
+tshark -i enp0s3 -f "tcp port 443" -o "tls.keylog_file:/path/to/your/keys.log"
+Captura tráfico en la interfaz "enp0s3" filtrando solo el tráfico TCP en el puerto 443 (HTTPS) y utiliza un archivo de claves TLS para descifrar el tráfico.
+
+tshark -v
+Muestra la versión actual de TShark instalada en el sistema.
+
+tshark -h
+Muestra la ayuda con todas las opciones disponibles en TShark.
+

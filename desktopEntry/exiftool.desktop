@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Categories=Utility;Application;
+Name=Exiftool
+Exec=gnome-terminal -- bash -c "cd /home/runar/OSINT/launchers && ./exiftool.sh"
+Icon=/home/runar/Downloads/runes/E.png

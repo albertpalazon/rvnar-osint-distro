@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Categories=Utility;Application;
+Name=RVNAR
+Comment=Abrir RVNAR
+Exec=gnome-terminal -- bash -c "less /home/runar/OSINT/launchers/RVNAR.txt"
+Icon=/home/runar/Downloads/ARBOL3.png

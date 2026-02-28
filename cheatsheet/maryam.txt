@@ -1,0 +1,36 @@
+
+███╗   ███╗ █████╗ ██████╗ ██╗   ██╗ █████╗ ███╗   ███╗
+████╗ ████║██╔══██╗██╔══██╗╚██╗ ██╔╝██╔══██╗████╗ ████║
+██╔████╔██║███████║██████╔╝ ╚████╔╝ ███████║██╔████╔██║
+██║╚██╔╝██║██╔══██║██╔══██╗  ╚██╔╝  ██╔══██║██║╚██╔╝██║
+██║ ╚═╝ ██║██║  ██║██║  ██║   ██║   ██║  ██║██║ ╚═╝ ██║
+╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝     ╚═╝
+                                                       
+PARA INICIAR EL PROGRAMA: maryam
+
+-- Paciencia, la primera vez que arranca tarda unos segundos :)
+
+help
+Muestra la lista de comandos disponibles y su uso dentro de la consola de Maryam.
+
+show modules
+Muestra todos los módulos disponibles en Maryam.
+
+<script_name> info
+Muestra la información detallada del módulo seleccionado.
+
+<script_name>
+Carga un script específico dentro de la consola de Maryam.
+Al abrir el script o modulo nos sale su -help y opciones automáticamente.
+
+save
+Guarda la sesión actual para su uso futuro.
+
+show workspaces
+Muestra la información del espacio de trabajo actual.
+
+workspaces add
+Crear un espacio de trabajo y accede a él.
+
+exit
+Sale de la consola de Maryam.

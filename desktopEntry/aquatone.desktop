@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Categories=Utility;Application;
+Name=Aquatone
+Exec=gnome-terminal -- bash -c "cd /home/runar/OSINT/launchers && ./aquatone.sh"
+Icon=/home/runar/Downloads/runes/A.png

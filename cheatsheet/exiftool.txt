@@ -1,0 +1,58 @@
+
+███████╗██╗  ██╗██╗███████╗████████╗ ██████╗  ██████╗ ██╗     
+██╔════╝╚██╗██╔╝██║██╔════╝╚══██╔══╝██╔═══██╗██╔═══██╗██║     
+█████╗   ╚███╔╝ ██║█████╗     ██║   ██║   ██║██║   ██║██║     
+██╔══╝   ██╔██╗ ██║██╔══╝     ██║   ██║   ██║██║   ██║██║     
+███████╗██╔╝ ██╗██║██║        ██║   ╚██████╔╝╚██████╔╝███████╗
+╚══════╝╚═╝  ╚═╝╚═╝╚═╝        ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝
+                                                              
+PARA INICIAR EL PROGRAMA: exiftool
+
+exiftool file.jpg
+Muestra todos los metadatos de "file.jpg".
+
+exiftool -json file.jpg
+Muestra los metadatos de "file.jpg" en formato JSON.
+
+exiftool -all:all file.jpg
+Muestra todos los metadatos, incluyendo los menos comunes, de "file.jpg".
+
+exiftool -dateTimeOriginal file.jpg
+Muestra la fecha y hora de la toma original de "file.jpg".
+
+exiftool -modifyDate="2024:01:01 12:00:00" file.jpg
+Modifica la fecha de modificación de "file.jpg" a "2024:01:01 12:00:00".
+
+exiftool -EXIF:DateTimeOriginal="2024:01:01 12:00:00" file.jpg
+Cambia la fecha y hora de la toma original en "file.jpg" a "2024:01:01 12:00:00".
+
+exiftool -GPSLatitude=37.7749 -GPSLongitude=-122.4194 file.jpg
+Establece la latitud y longitud GPS en "file.jpg".
+
+exiftool -TAG=value file.jpg
+Modifica el valor del metadato especificado por TAG en "file.jpg".
+
+exiftool -r -all:all directory/
+Muestra todos los metadatos de todos los archivos en el directorio "directory" y sus subdirectorios.
+
+exiftool -d "%Y-%m-%d %H:%M:%S" file.jpg
+Muestra los metadatos de "file.jpg" con las fechas en el formato "AÑO-MES-DÍA HORA:MINUTO:SEGUNDO".
+
+exiftool -G1 -s file.jpg
+Muestra los metadatos de "file.jpg" con los nombres de los grupos de metadatos y etiquetas.
+
+exiftool -P -overwrite_original -Title="New Title" file.jpg
+Cambia el título de "file.jpg" a "New Title" sin crear una copia de respaldo.
+
+exiftool -ext jpg -keywords="Vacation" directory/
+Añade la palabra clave "Vacation" a todos los archivos JPG en el directorio "directory".
+
+exiftool -delete_original file.jpg
+Elimina el archivo original después de realizar cambios en los metadatos.
+
+exiftool -h
+Muestra la ayuda con todas las opciones disponibles en ExifTool.
+
+exiftool -ver
+Muestra la versión actual de ExifTool instalada en el sistema.
+

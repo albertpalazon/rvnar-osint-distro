@@ -1,0 +1,40 @@
+
+██╗  ██╗ █████╗ ███╗   ███╗ █████╗ ██╗██╗     
+██║  ██║██╔══██╗████╗ ████║██╔══██╗██║██║     
+███████║╚█████╔╝██╔████╔██║███████║██║██║     
+██╔══██║██╔══██╗██║╚██╔╝██║██╔══██║██║██║     
+██║  ██║╚█████╔╝██║ ╚═╝ ██║██║  ██║██║███████╗
+╚═╝  ╚═╝ ╚════╝ ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝╚══════╝
+                                              
+PARA INICIAR EL PROGRAMA: python3 h8mail
+
+h8mail -t user@example.com
+Busca en bases de datos de filtraciones información sobre la dirección de correo "user@example.com".
+
+h8mail -t user@example.com -o results.txt
+Busca información sobre la dirección de correo "user@example.com" y guarda los resultados en un archivo de texto llamado "results.txt".
+
+h8mail -t targets.txt -o results.txt
+Busca información sobre múltiples correos electrónicos listados en el archivo "targets.txt" y guarda los resultados en "results.txt".
+
+h8mail -t user@example.com -bc <breachcompilation_path>
+Utiliza la base de datos de Breach Compilation para buscar información sobre "user@example.com".
+
+h8mail -t targets.txt --local
+Realiza una búsqueda local utilizando bases de datos de filtraciones almacenadas en tu máquina.
+
+h8mail -t user@example.com -k "hunter.io_api_key,haveibeenpwned_api_key"
+Utiliza claves API para servicios de búsqueda adicionales como Hunter.io y HaveIBeenPwned.
+
+h8mail -t user@example.com --pastebin
+Busca en Pastebin filtraciones relacionadas con "user@example.com" utilizando la clave API de Pastebin configurada.
+
+h8mail -c config.ini -t user@example.com
+Ejecuta h8mail utilizando configuraciones avanzadas definidas en un archivo INI.
+
+h8mail -h
+Muestra la ayuda con todas las opciones disponibles en h8mail.
+
+h8mail --debug
+Ejecuta h8mail en modo depuración, mostrando información adicional útil para diagnóstico.
+

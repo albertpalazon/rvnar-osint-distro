@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Categories=Utility;Application;
+Name=Metagoofil
+Exec=gnome-terminal -- bash -c "cd /home/runar/OSINT/launchers && ./metagoofil.sh"
+Icon=/home/runar/Downloads/runes/M.png
