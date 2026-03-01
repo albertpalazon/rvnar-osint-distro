@@ -29,10 +29,10 @@ This distribution was developed as a Master’s Final Project in Cybersecurity, 
 
 ## Repository Structure
 
-scripts/         → Launcher logic and orchestration
-cheatsheets/     → Tool usage documentation
-assets/          → Visual resources and screenshots
-desktopEntry/    → Custom desktop integrations
+-scripts/         → Launcher logic and orchestration
+-cheatsheets/     → Tool usage documentation
+-assets/          → Visual resources and screenshots
+-desktopEntry/    → Custom desktop integrations
 
 ---
 
